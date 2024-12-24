@@ -9,10 +9,10 @@ import userRouter from "./routes/userRoutes.js"
 
 
 const app = express();
-const port = process.env.port || 4000
+const port = process.env.port || mern-authentication-backend-silk.vercel.app
 connectDB()
 
-const allowedOrigins = ["http://localhost:5173"]
+const allowedOrigins = ["https://mern-authentication-rose.vercel.app"]
 
 app.use(express.json())
 app.use(cookieParser())
