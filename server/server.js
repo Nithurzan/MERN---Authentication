@@ -12,7 +12,8 @@ const app = express();
 const port = process.env.port || mern-authentication-backend-silk.vercel.app
 connectDB()
 
-const allowedOrigins = ["https://mern-authentication-rose.vercel.app"]
+//const allowedOrigins = [" http://localhost:5173"]
+const allowedOrigins = ["https://mern-authentication-client-silk.vercel.app"]
 
 app.use(express.json())
 app.use(cookieParser())
